@@ -3,7 +3,7 @@
 For your final practical project and for many instances in the future, you will need to make a `compareTo()` method to compare the values of objects you make. For example, today you will work with an Apple class, which has three variables associated with it: `size`, `type`, and `color`. The compiler has no idea how to sort the Apple objects, so you will need to tell it how to compare them. You will write three different `compareTo()` methods that will compare the Apples by `size`, `type`, and `color`, respectively. The [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab19/package-summary.html) has what methods were already written for you and where your code will go. 
 
 ## Step 1: Getting Started
-Take a look at the [javadoc](https://csu-compsci-cs163-4.github.io/Lab19SortingApples/Apple.html) and the code provided to you. The following [website](https://www.baeldung.com/java-compareto) has some good information on the basics of the `compareTo()` method. 
+Take a look at the [javadoc](https://csu-compsci-cs163-4.github.io/Lab19SortingApples/package-summary.html) and the code provided to you. The following [website](https://www.baeldung.com/java-compareto) has some good information on the basics of the `compareTo()` method. 
 
 ## Step 2: Implementation
 Go to the `compareTo()` method in `Apple`. When `main()` is run, `Collections.sort(apples)` will call this method. Do your work for each `compareTo()` in here, then copy it over to `compareTo1()`, `compareTo2()`, or `compareTo3()`. 
